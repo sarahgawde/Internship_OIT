@@ -1,0 +1,40 @@
+#form{
+    background-color: #f3f6f8;
+    padding: 3em 0;
+}
+
+.container{
+    background-color: white;
+    border: 1px solid rgb(230, 227, 227);
+    width:65%;
+}
+
+.modal-content{
+    border-radius: 0;
+}
+
+input{
+    border-radius: 0;
+}
+button{
+    border-radius:0;
+}
+
+.pill-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size:12px;
+  }

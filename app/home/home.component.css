@@ -1,0 +1,61 @@
+body{
+    color: #707070;
+    font: Myriad Pro;
+    text-align: left;
+    overflow-x: hidden;
+}
+#resp{
+    font-size:40px;
+}
+
+#resp1{
+    font-size:15px;
+}
+
+.home{
+   
+margin-top: 100px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.home1{
+    margin-top: 100px;
+    margin-left: 100px;
+ }
+ .home2{
+    margin-top: 100px;
+    margin-right: 100px;
+ }
+
+button.mbtn {
+    padding:0.6em 2em;
+    border-radius: 40px;
+    color:#fff;
+    width:190px;
+    height:60px;
+    background-color:#F96868;
+    font-size:20px;
+    border:0;
+    cursor:pointer;
+    margin:1em;
+  }
+
+  button.start {
+    padding:0.6em 2em;
+    border-radius: 40px;
+    color:#fff;
+    width:190px;
+    height:60px;
+    background-color:#F96868;
+    font-size:20px;
+    border:0;
+    cursor:pointer;
+  }
+
+#img1{
+    width:100%;
+    vertical-align: middle;
+    height: 80;
+}
+

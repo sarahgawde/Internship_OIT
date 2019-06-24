@@ -1,0 +1,302 @@
+<div id="form">
+  <!-- Personal Details -->
+  <div class="container profile shadow-sm" style="padding:2em">
+    <div class="row">
+      <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center" style="padding:1em">
+        <img src="assets/images/angular.png" class="img-fluid">
+        <a href="#" data-toggle="modal" data-target="#myModal">+ Edit Profile</a>
+      </div>
+      <div class="col-sm-9 d-flex flex-column justify-content-center mx-auto">
+        <h3 style="font-weight: 400">Harsh Shelar</h3>
+        <h4 style="font-weight: 300">Student at an Engineering college</h4>
+        <h6 style="font-weight: 300">Location , Location</h6>
+      </div>
+    </div>
+  </div>
+
+  <!-- Edit Profile Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Edit Profile</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="fname">First Name</label>
+                <input type="text" class="form-control" id="fname">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="sname">Second Name</label>
+                <input type="text" class="form-control" id="sname">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="headline">HeadLine</label>
+              <textarea id="textarea" class="form-control" rows="2" style="border-radius: 0"></textarea>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="country">Country/Region</label>
+                <input type="text" class="form-control" id="country">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="province">Province/State</label>
+                <input type="text" class="form-control" id="province">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="city">City/District</label>
+              <input type="text" class="form-control" id="city">
+            </div>
+            <div class="form-group">
+              <label for="industry">Industry</label>
+              <input type="text" class="form-control" id="industry">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-outline-primary mr-2">Save</button>
+          <button type="button" class="btn btn-outline-info" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- Education -->
+  <div class="container shadow-sm" style="padding:2em;margin-top:2em">
+    <div class="row d-flex flex-row align-items-center">
+      <div class="col-sm-10">
+        <h2 style="font-weight: 400">Education</h2>
+      </div>
+      <div class="col-sm-2">
+        <a href="#" data-toggle="modal" data-target="#addCollege"><i class="fa fa-plus"
+            style="font-size:24px;color:cornflowerblue"></i></a>
+      </div>
+    </div>
+    <hr>
+    <div class="row" style="margin-top:3em">
+      <div class="col-sm-10">
+        <h4 style="font-weight: 400">Bharatiya Vidya Bhavans Sardar Patel Institute of Technology</h4>
+        <h5 style="font-weight: 300">Bachelor of Technology, Information Tecnology</h5>
+        <h6 style="font-weight: 300">2018-2021</h6>
+      </div>
+      <div class="col-sm-2">
+        <a href="#" data-toggle="modal" data-target="#addCollege"><i class="fas fa-pen"
+            style="font-size:24px;color:cornflowerblue"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add College -->
+  <div id="addCollege" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Add Education</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="school">School/University Name</label>
+              <input type="text" class="form-control" id="school" placeholder="Ex : Boston University">
+            </div>
+            <div class="form-group">
+              <label for="deg">Degree</label>
+              <input id="textarea" class="form-control" id="deg" placeholder="Ex : Bachelor's">
+            </div>
+            <div class="form-group">
+              <label for="fos">Field of Study</label>
+              <input id="textarea" class="form-control" id="fos" placeholder="Ex : Business">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="syear">Start Year</label>
+                <input type="text" class="form-control" id="syear">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="eyear">End Year</label>
+                <input type="text" class="form-control" id="eyear">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="grade">Grade</label>
+              <input id="textarea" class="form-control" id="grade" placeholder="Ex: 8.5 C.G.P.A">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-outline-primary mr-2">Save</button>
+          <button type="button" class="btn btn-outline-info" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Social Media -->
+  <div class="container shadow-sm" style="padding:2em;margin-top:2em">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Social Media</h3>
+      </div>
+      <div class="col-sm-8">
+        <i class='fab fa-facebook' style='font-size:32px;margin-left:1em;color:#3b5998'></i>
+        <i class='fab fa-linkedin' style='font-size:32px;margin-left:1em;color:#0077B5'></i>
+        <i class='fab fa-github' style='font-size:32px;margin-left:1em;'></i>
+        <i class='fab fa-twitter' style='font-size:32px;margin-left:1em;color: #1da1f2 '></i>
+        <i class='fab fa-instagram' style='font-size:32px;margin-left:1em;color:#d6249f'></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Me -->
+  <div class="container shadow-sm" style="padding:2em;margin-top:2em">
+    <h3>About Me</h3>
+    <hr>
+    <div class="row" style="margin-top: 2em">
+      <div class="col-12">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quasi officia explicabo? Tempore suscipit
+          sapiente aspernatur quod molestiae accusantium impedit et dolore sint, temporibus ipsa ipsum nisi
+          perspiciatis, tempora porro. </p>
+        <a href="#" data-toggle="modal" data-target="#aboutMe" style="margin-top:5em">+ Edit About Me</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Edit About Me -->
+  <div id="aboutMe" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Add Details About Yourself</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="aboutme">About Me</label>
+              <textarea id="aboutme" class="form-control" rows="4" style="border-radius: 0"
+                placeholder="Write something about yourself"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-outline-primary mr-2">Save</button>
+          <button type="button" class="btn btn-outline-info" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- My Interests -->
+  <div class="container shadow-sm" style="padding:2em;margin-top:2em">
+    <h3>My Interests</h3>
+    <hr>
+    <div class="pill-container">
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+      <button class="button">Interest</button>
+    </div>
+    <br>
+    <br>
+    <a href="#">+ Add interest</a>
+  </div>
+
+
+
+  <!-- Social Participation -->
+
+  <div class="container shadow-sm" style="padding:2em;margin-top:2em">
+    <h3>Social Work</h3>
+    <hr>
+    <br>
+    <div class="row">
+      <div class="col-sm-2">
+        <p style="font-size: 1.2em;font-weight: 400">2019-2020</p>
+      </div>
+      <div class="col-sm-10">
+        <h5 style="font-size:1.2em;font-weight: 500">Fundraising Volunteering</h5>
+        <p style="font-weight: 500">trust-name</p>
+        <p style="font-size: 0.9em">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam fugiat officiis ea
+          voluptates minus soluta harum eius impedit, omnis reiciendis quisquam sapiente illum quas quos consectetur
+          esse ullam autem mollitia.</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-2">
+        <p style="font-size: 1.2em;font-weight: 400">2019-2020</p>
+      </div>
+      <div class="col-sm-10">
+        <h6 style="font-size:1.2em;font-weight: 500">Fundraising Volunteering</h6>
+        <p style="font-weight: 500">trust-name</p>
+        <p style="font-size: 0.9em">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam fugiat officiis ea
+          voluptates minus soluta harum eius impedit, omnis reiciendis quisquam sapiente illum quas quos consectetur
+          esse ullam autem mollitia.</p>
+      </div>
+    </div>
+    <br>
+    <br>
+    <a href="#" data-toggle="modal" data-target="#socialWork">+ Add Social Work</a>
+  </div>
+
+  <!-- Add Social Work -->
+  <div id="socialWork" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Add Social Work</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="wtitle">Title</label>
+              <input id="wtitle" class="form-control" placeholder="Ex : Beach Cleaning, Fundraisingd">
+            </div>
+            <div class="form-group">
+              <label for="trust">Trust name</label>
+              <input id="trust" class="form-control" placeholder="Name of the NGO/Organizaion">
+            </div>
+            <div class="form-group">
+                <label for="wdesc">Desciption of the work</label>
+                <textarea id="wdesc" class="form-control" style="border-radius: 0" rows="4" placeholder="Briefly describe the kind of work you did"></textarea>
+              </div>
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-outline-primary mr-2">Save</button>
+          <button type="button" class="btn btn-outline-info" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

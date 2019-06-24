@@ -1,0 +1,17 @@
+* {
+    text-align: center;
+}
+
+.progress-path {
+    width: 100%;
+}
+
+.path {
+    list-style-type: none;
+}
+
+.path li {            
+    display: inline-block;
+    width: 33%;
+    vertical-align: middle;
+}
